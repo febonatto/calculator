@@ -1,3 +1,9 @@
+import { Calculator } from './components/Calculator';
+
 export function App() {
-  return <h1>Hello world</h1>;
+  return (
+    <div className="flex h-screen items-center justify-center bg-zinc-950">
+      <Calculator />
+    </div>
+  );
 }
